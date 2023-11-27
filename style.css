@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+        --primary-color: #ffffff;
+        --secondary-color: #0a3250;
+        --tertiair-color: #46aa64;
+        --text-color: #000;
+        --main-font: "main-font", Arial, Helvetica, sans-serif;
+        --border-bottom: 3px solid var(--tertiair-color);
+        --line-height: 1.5;
+      }
+
+@font-face {
+    font-family: "main-font", Arial, Helvetica, sans-serif;
+    src: url(fonts/ITC Avant Garde Gothic Medium.otf);
+}
+
+header {
+    & {
+        padding: 1em;
+    }
+    & h1 {
+        font-family: var(--main-font);
+        text-transform: uppercase;
+    }
+
+    & span {
+        color: var(--tertiair-color);
+    }
+}
+
+main {
+    & figure img {
+        width: 100vw;
+    }
+
+    & h2 {
+        display: flex;
+        justify-content: center;
+        font-family: var(--main-font);
+        --h2fontsize: 1.25em;
+        font-size: var(--h2fontsize);
+        line-height: var(--line-height);
+        width: 50vw;
+    }
+
+    & a {
+        all: unset;
+    }
+
+    & .marketplace {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    & .offered:focus-within, .wanted:focus-within {
+        color: var(--tertiair-color);
+        border-bottom: var(--border-bottom);
+    }
+
+    & ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding-top: 1vh;
+        width: 100%;
+    }
+
+    & li {
+        font-family: var(--main-font);
+        flex: 1 0 0;
+        min-width: 100%;
+    }
+
+    & ul li img {
+        width: 40vw;
+    }
+}
