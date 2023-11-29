@@ -10,7 +10,7 @@ Op onze website kan je door middel van vraag en aanbod knoppen zien wat er allem
 
 ![image](https://github.com/koeenm/look-and-feel-corporate-identity/assets/144009715/d53263a6-cf38-48b6-9577-7d1b06744854)
 
-Dit is de link naar de website: https://ryank2004.github.io/look-and-feel-corporate-identity/
+Dit is de link naar de website: https://ryank2004.github.io/look-and-feel-corporate-identity/ , deze link is niet van deze repository, want we werken vanuit Ryan's repo aan de html. Deze repo is bedoeld voor mijn eigen documentatie.
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
